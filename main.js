@@ -69,12 +69,77 @@ function makeJSButtons() {
 }
 
 function clicking() {
-    let button  = document.querySelectorAll('button');
+    let one = document.querySelector('.one');
 
-    button.addEventListener('click', function() {
-        button.innerHTML = "test";
-        console.log("test");
+    one.addEventListener('click', function() {
+        one.innerHTML = "one";
+        console.log("one");
+    });
+
+    let two = document.querySelector('.two');
+
+    two.addEventListener('click', function() {
+        two.innerHTML = "two";
+        console.log("two");
+    });
+
+    let three = document.querySelector('.three');
+
+    three.addEventListener('click', function() {
+        three.innerHTML = "three";
+        console.log("three");
+    });
+
+    let four = document.querySelector('.four');
+
+    four.addEventListener('click', function() {
+        four.innerHTML = "four";
+        console.log("four");
+    });
+
+    let five = document.querySelector('.five');
+
+    five.addEventListener('click', function() {
+        five.innerHTML = "five";
+        console.log("five");
+    });
+
+    let six = document.querySelector('.six');
+
+    six.addEventListener('click', function() {
+        six.innerHTML = "six";
+        console.log("six");
+    });
+
+    let seven = document.querySelector('.seven');
+
+    seven.addEventListener('click', function() {
+        seven.innerHTML = "seven";
+        console.log("seven");
+    });
+
+    let eight = document.querySelector('.eight');
+
+    eight.addEventListener('click', function() {
+        eight.innerHTML = "eight";
+        console.log("eight");
+    });
+
+    let nine = document.querySelector('.nine');
+
+    nine.addEventListener('click', function() {
+        nine.innerHTML = "nine";
+        console.log("nine");
+    });
+
+    let zero = document.querySelector('.zero');
+
+    zero.addEventListener('click', function() {
+        zero.innerHTML = "zero";
+        console.log("zero");
     });
 }
 
 clicking();
+
+document.addEventListener('DOMContentLoaded', main)
