@@ -1,0 +1,35 @@
+
+button {
+    font-family: fantasy;
+    font-size:2em;
+    text-decoration: none;
+    color: black;
+    width: 148px;
+    height: 123px;
+    line-height: 125px;
+    text-align: center;
+    background: lightgreen;
+    border: thick black;
+    margin:1px;
+}
+
+.row {
+    display: flex;
+    list-style-type: none;
+    height: 125px;
+    width: 600px;
+    background-color: green;
+    margin:0px;
+    padding:0px;
+    
+}
+
+.field {
+    width: 450px;
+}
+
+.calc {
+    padding: 30px;
+    margin: 10px;
+}
+
