@@ -13,6 +13,28 @@ button {
     margin:1px;
 }
 
+button:hover {
+    background: lightgreen;
+}
+
+button:active {
+    background: red;
+}
+
+.operator {
+    background: lightcyan;
+    color: black;
+}
+
+.field {
+    background: lightyellow;
+    color: darkblue;
+}
+
+.field:hover {
+    background: lightyellow;
+}
+
 .row {
     display: flex;
     list-style-type: none;
