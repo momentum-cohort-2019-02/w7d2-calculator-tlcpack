@@ -3,12 +3,12 @@ button {
     font-family: fantasy;
     font-size:2em;
     text-decoration: none;
-    color: black;
+    color: white;
     width: 148px;
     height: 123px;
     line-height: 125px;
     text-align: center;
-    background: lightgreen;
+    background: darkgreen;
     border: thick black;
     margin:1px;
 }
