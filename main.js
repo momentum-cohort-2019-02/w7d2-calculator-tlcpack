@@ -107,12 +107,12 @@ function clicking() {
         console.log("plus");
     });
 
-    // let decimal = document.querySelector('.decimal');
+    let decimal = document.querySelector('.decimal');
 
-    // decimal.addEventListener('click', function() {
-    //     field.innerText += ".";
-    //     console.log(".");
-    // });
+    decimal.addEventListener('click', function() {
+        field.innerText += ".";
+        console.log(".");
+    });
 
     let equal = document.querySelector('.equal');
 
