@@ -179,7 +179,7 @@ function clicking() {
     let equal = document.querySelector('.equal');
 
     equal.addEventListener('click', function() {   
-        let answer = eval(field)
+        let answer = eval(field.innerText);
         field.innerText = answer;
     })
 }
